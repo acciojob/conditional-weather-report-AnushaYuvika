@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './../styles/App.css';
 import WeatherDisplay from "./weatherDisplay";
-// import WeatherDisplay from "./WeatherDisplay";
+
 
 
 
