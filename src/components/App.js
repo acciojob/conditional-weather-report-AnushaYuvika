@@ -1,13 +1,16 @@
-
 import React, { useState } from "react";
 import './../styles/App.css';
 import WeatherDisplay from "./weatherDisplay";
+// import WeatherDisplay from "./WeatherDisplay";
+
+
 
 const App = () => {
   const [weather, setWeather] = useState({
     temperature: 20,
     conditions: "Sunny"
   });
+
   return (
     <div>
       <WeatherDisplay weather={weather}/>
