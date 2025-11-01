@@ -14,4 +14,4 @@ const WeatherDisplay = ({weather}) => {
   )
 }
 
-export default WeatherDisplay
+export default WeatherDisplay;

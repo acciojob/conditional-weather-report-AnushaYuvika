@@ -1,21 +1,18 @@
 import React, { useState } from "react";
-import './../styles/App.css';
-import WeatherDisplay from "./weatherDisplay";
-
-
-
+import "./../styles/App.css";
+import WeatherDisplay from "./WeatherDisplay";
 
 const App = () => {
   const [weather, setWeather] = useState({
     temperature: 20,
-    conditions: "Sunny"
+    conditions: "Sunny",
   });
 
   return (
     <div>
-      <WeatherDisplay weather={weather}/>
+      <WeatherDisplay weather={weather} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
