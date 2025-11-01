@@ -8,8 +8,8 @@ const WeatherDisplay = ({weather}) => {
 
   return (
     <div>
-      <p>temperature: <span style={tempStyle}>{weather.temperature}</span></p>
-      <p>conditions: {weather.conditions}</p>
+      <p>Temperature: <span style={tempStyle}>{weather.temperature}</span></p>
+      <p>Conditions: {weather.conditions}</p>
     </div>
   )
 }
